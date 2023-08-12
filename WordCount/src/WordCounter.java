@@ -8,7 +8,7 @@ public class WordCounter {
         Scanner scanner = new Scanner(System.in);
         String inputText = "";
 
-        System.out.println("Enter text or provide the path to a file:");
+        System.out.println("Enter text:");
 
         // Read user input or file
         if (scanner.hasNextLine()) {
